@@ -4,6 +4,16 @@ let multiCiData = [];
 // Helper function to format numbers with commas (e.g., 1,234.56)
 const fmt = (num) => num.toLocaleString('en-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
+// Modal Control Functions
+function showModal(message) {
+    document.getElementById('modalMessage').textContent = message;
+    document.getElementById('validationModal').style.display = 'flex';
+}
+
+function closeModal() {
+    document.getElementById('validationModal').style.display = 'none';
+}
+
 // 1. Fetch JSON data on page load
 Promise.all([
     fetch('coi.json').then(res => res.json()),
@@ -38,16 +48,31 @@ document.getElementById('calcBtn').addEventListener('click', () => {
     const roi = parseFloat(document.getElementById('roi').value) / 100;
     const payingTerm = parseInt(document.getElementById('payingTerm').value);
     
-    // Validation Logic
+    // --- VALIDATION LOGIC ---
+    
+    // 1. Annual Premium Check
+    if (premium < 2400) {
+        showModal("The minimum Annual Premium allowed is RM 2,400.");
+        return;
+    }
+
+    // 2. Multi CI Check (Must be 0 OR >= 80,000)
+    if (multiCiAmount !== 0 && multiCiAmount < 80000) {
+        showModal("The Multi CI Amount must be either 0 or at least RM 80,000.");
+        return;
+    }
+
+    // 3. Face Amount by Term Check
     if ((payingTerm === 6 || payingTerm === 10) && faceAmount < 500000) {
-        alert(`For a ${payingTerm}-year paying term, the minimum Face Amount is RM 500,000.`);
+        showModal(`For a ${payingTerm}-year paying term, the minimum Face Amount is RM 500,000.`);
         return; 
     }
     
     if (payingTerm === 20 && faceAmount < 750000) {
-        alert("For a 20-year paying term, the minimum Face Amount is RM 750,000.");
+        showModal("For a 20-year paying term, the minimum Face Amount is RM 750,000.");
         return; 
     }
+    // -------------------------
 
     const tbody = document.querySelector('#projectionTable tbody');
     tbody.innerHTML = ''; // Clear previous results
@@ -105,7 +130,7 @@ document.getElementById('calcBtn').addEventListener('click', () => {
         // Final Account Value
         accountValue = beginningValue + nettPremium - basicCoi - multiCiCharge - adminCharge + totalBonuses;
 
-        // Render Row with Comma Formatting applied to outputs
+        // Render Row
         const tr = document.createElement('tr');
         tr.innerHTML = `
             <td style="text-align: center;">${year}</td>
