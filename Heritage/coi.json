@@ -1,0 +1,695 @@
+[
+  {
+    "Age": 1,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 2,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 3,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 4,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 5,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 6,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 7,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 8,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 9,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 10,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 11,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 12,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 13,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.1248,
+    "Female Non-Smoker": 1.3085,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 14,
+    "Male Non-Smoker": 1.1248,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.5789,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 15,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 16,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.1248,
+    "Female Non-Smoker": 1.3085,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 17,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 18,
+    "Male Non-Smoker": 1.1248,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.5789,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 19,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 20,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 21,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.1248,
+    "Female Non-Smoker": 1.3085,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 22,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 23,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.3085,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 24,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 25,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 26,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 27,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 28,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 29,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 30,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.1248,
+    "Female Non-Smoker": 1.5789,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 31,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 32,
+    "Male Non-Smoker": 1.3085,
+    "Male Smoker": 1.5789,
+    "Female Non-Smoker": 1.1248,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 33,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.1248,
+    "Female Non-Smoker": 1.3085,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 34,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.1248,
+    "Female Non-Smoker": 1.3085,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 35,
+    "Male Non-Smoker": 1.5789,
+    "Male Smoker": 1.1248,
+    "Female Non-Smoker": 1.3085,
+    "Female Smoker": 1.273
+  },
+  {
+    "Age": 36,
+    "Male Non-Smoker": 1.6457,
+    "Male Smoker": 1.3804,
+    "Female Non-Smoker": 1.1709,
+    "Female Smoker": 1.3399
+  },
+  {
+    "Age": 37,
+    "Male Non-Smoker": 1.4524,
+    "Male Smoker": 1.7125,
+    "Female Non-Smoker": 1.2171,
+    "Female Smoker": 1.4066
+  },
+  {
+    "Age": 38,
+    "Male Non-Smoker": 1.7794,
+    "Male Smoker": 1.5245,
+    "Female Non-Smoker": 1.2633,
+    "Female Smoker": 1.4735
+  },
+  {
+    "Age": 39,
+    "Male Non-Smoker": 1.5965,
+    "Male Smoker": 1.8462,
+    "Female Non-Smoker": 1.3095,
+    "Female Smoker": 1.5403
+  },
+  {
+    "Age": 40,
+    "Male Non-Smoker": 1.9131,
+    "Male Smoker": 1.6685,
+    "Female Non-Smoker": 1.3556,
+    "Female Smoker": 1.6072
+  },
+  {
+    "Age": 41,
+    "Male Non-Smoker": 1.7405,
+    "Male Smoker": 1.9799,
+    "Female Non-Smoker": 1.4018,
+    "Female Smoker": 1.5698
+  },
+  {
+    "Age": 42,
+    "Male Non-Smoker": 2.175,
+    "Male Smoker": 1.8605,
+    "Female Non-Smoker": 1.5122,
+    "Female Smoker": 1.6985
+  },
+  {
+    "Age": 43,
+    "Male Non-Smoker": 2.1047,
+    "Male Smoker": 2.3971,
+    "Female Non-Smoker": 1.6532,
+    "Female Smoker": 1.8735
+  },
+  {
+    "Age": 44,
+    "Male Non-Smoker": 2.3662,
+    "Male Smoker": 2.6647,
+    "Female Non-Smoker": 1.9014,
+    "Female Smoker": 2.1369
+  },
+  {
+    "Age": 45,
+    "Male Non-Smoker": 2.87,
+    "Male Smoker": 2.0183,
+    "Female Non-Smoker": 2.524,
+    "Female Smoker": 2.3618
+  },
+  {
+    "Age": 46,
+    "Male Non-Smoker": 2.6842,
+    "Male Smoker": 2.2652,
+    "Female Non-Smoker": 3.0602,
+    "Female Smoker": 2.5892
+  },
+  {
+    "Age": 47,
+    "Male Non-Smoker": 2.3859,
+    "Male Smoker": 2.8224,
+    "Female Non-Smoker": 3.2539,
+    "Female Smoker": 2.7759
+  },
+  {
+    "Age": 48,
+    "Male Non-Smoker": 3.2967,
+    "Male Smoker": 2.5856,
+    "Female Non-Smoker": 3.8372,
+    "Female Smoker": 3.0491
+  },
+  {
+    "Age": 49,
+    "Male Non-Smoker": 4.459,
+    "Male Smoker": 3.8,
+    "Female Non-Smoker": 2.9152,
+    "Female Smoker": 3.4297
+  },
+  {
+    "Age": 50,
+    "Male Non-Smoker": 3.0608,
+    "Male Smoker": 4.0673,
+    "Female Non-Smoker": 4.7969,
+    "Female Smoker": 3.6821
+  },
+  {
+    "Age": 51,
+    "Male Non-Smoker": 4.4564,
+    "Male Smoker": 5.0136,
+    "Female Non-Smoker": 3.2091,
+    "Female Smoker": 3.9088
+  },
+  {
+    "Age": 52,
+    "Male Non-Smoker": 3.3598,
+    "Male Smoker": 4.8013,
+    "Female Non-Smoker": 5.5684,
+    "Female Smoker": 4.1179
+  },
+  {
+    "Age": 53,
+    "Male Non-Smoker": 3.6351,
+    "Male Smoker": 5.2224,
+    "Female Non-Smoker": 6.0783,
+    "Female Smoker": 4.53
+  },
+  {
+    "Age": 54,
+    "Male Non-Smoker": 5.8648,
+    "Male Smoker": 6.8661,
+    "Female Non-Smoker": 4.1321,
+    "Female Smoker": 5.245
+  },
+  {
+    "Age": 55,
+    "Male Non-Smoker": 6.5369,
+    "Male Smoker": 4.756,
+    "Female Non-Smoker": 7.6593,
+    "Female Smoker": 5.9858
+  },
+  {
+    "Age": 56,
+    "Male Non-Smoker": 5.0964,
+    "Male Smoker": 6.8732,
+    "Female Non-Smoker": 7.6265,
+    "Female Smoker": 6.0554
+  },
+  {
+    "Age": 57,
+    "Male Non-Smoker": 7.2139,
+    "Male Smoker": 5.4427,
+    "Female Non-Smoker": 8.0352,
+    "Female Smoker": 6.8093
+  },
+  {
+    "Age": 58,
+    "Male Non-Smoker": 7.5591,
+    "Male Smoker": 8.4179,
+    "Female Non-Smoker": 5.7984,
+    "Female Smoker": 7.5725
+  },
+  {
+    "Age": 59,
+    "Male Non-Smoker": 8.5379,
+    "Male Smoker": 9.4546,
+    "Female Non-Smoker": 6.3343,
+    "Female Smoker": 8.3179
+  },
+  {
+    "Age": 60,
+    "Male Non-Smoker": 10.5019,
+    "Male Smoker": 9.4726,
+    "Female Non-Smoker": 6.8726,
+    "Female Smoker": 9.154
+  },
+  {
+    "Age": 61,
+    "Male Non-Smoker": 10.469,
+    "Male Smoker": 10.9421,
+    "Female Non-Smoker": 7.4422,
+    "Female Smoker": 9.9573
+  },
+  {
+    "Age": 62,
+    "Male Non-Smoker": 11.9611,
+    "Male Smoker": 11.4808,
+    "Female Non-Smoker": 8.0467,
+    "Female Smoker": 10.8112
+  },
+  {
+    "Age": 63,
+    "Male Non-Smoker": 8.6111,
+    "Male Smoker": 12.4588,
+    "Female Non-Smoker": 12.9661,
+    "Female Smoker": 11.6535
+  },
+  {
+    "Age": 64,
+    "Male Non-Smoker": 10.4215,
+    "Male Smoker": 15.3283,
+    "Female Non-Smoker": 14.7625,
+    "Female Smoker": 14.222
+  },
+  {
+    "Age": 65,
+    "Male Non-Smoker": 17.3218,
+    "Male Smoker": 17.8562,
+    "Female Non-Smoker": 12.3456,
+    "Female Smoker": 16.8871
+  },
+  {
+    "Age": 66,
+    "Male Non-Smoker": 19.4679,
+    "Male Smoker": 13.4471,
+    "Female Non-Smoker": 18.8578,
+    "Female Smoker": 18.5846
+  },
+  {
+    "Age": 67,
+    "Male Non-Smoker": 20.2669,
+    "Male Smoker": 20.9818,
+    "Female Non-Smoker": 14.3661,
+    "Female Smoker": 20.0917
+  },
+  {
+    "Age": 68,
+    "Male Non-Smoker": 15.0369,
+    "Male Smoker": 21.5529,
+    "Female Non-Smoker": 22.3447,
+    "Female Smoker": 21.3604
+  },
+  {
+    "Age": 69,
+    "Male Non-Smoker": 23.027,
+    "Male Smoker": 16.1948,
+    "Female Non-Smoker": 23.9226,
+    "Female Smoker": 23.2447
+  },
+  {
+    "Age": 70,
+    "Male Non-Smoker": 23.8875,
+    "Male Smoker": 16.592,
+    "Female Non-Smoker": 22.933,
+    "Female Smoker": 25.14
+  },
+  {
+    "Age": 71,
+    "Male Non-Smoker": 25.024,
+    "Male Smoker": 26.4988,
+    "Female Non-Smoker": 18.071,
+    "Female Smoker": 27.0263
+  },
+  {
+    "Age": 72,
+    "Male Non-Smoker": 19.516,
+    "Male Smoker": 29.227,
+    "Female Non-Smoker": 27.081,
+    "Female Smoker": 28.8493
+  },
+  {
+    "Age": 73,
+    "Male Non-Smoker": 21.471,
+    "Male Smoker": 28.101,
+    "Female Non-Smoker": 30.7238,
+    "Female Smoker": 31.32
+  },
+  {
+    "Age": 74,
+    "Male Non-Smoker": 31.62,
+    "Male Smoker": 34.9025,
+    "Female Non-Smoker": 22.831,
+    "Female Smoker": 32.5797
+  },
+  {
+    "Age": 75,
+    "Male Non-Smoker": 35.904,
+    "Male Smoker": 39.9148,
+    "Female Non-Smoker": 25.806,
+    "Female Smoker": 36.0258
+  },
+  {
+    "Age": 76,
+    "Male Non-Smoker": 45.744,
+    "Male Smoker": 40.817,
+    "Female Non-Smoker": 28.951,
+    "Female Smoker": 39.55
+  },
+  {
+    "Age": 77,
+    "Male Non-Smoker": 49.356,
+    "Male Smoker": 44.761,
+    "Female Non-Smoker": 32.113,
+    "Female Smoker": 43.12
+  },
+  {
+    "Age": 78,
+    "Male Non-Smoker": 48.722,
+    "Male Smoker": 52.968,
+    "Female Non-Smoker": 35.258,
+    "Female Smoker": 46.69
+  },
+  {
+    "Age": 79,
+    "Male Non-Smoker": 52.666,
+    "Male Smoker": 56.58,
+    "Female Non-Smoker": 38.42,
+    "Female Smoker": 50.274
+  },
+  {
+    "Age": 80,
+    "Male Non-Smoker": 56.61,
+    "Male Smoker": 60.192,
+    "Female Non-Smoker": 41.565,
+    "Female Smoker": 53.858
+  },
+  {
+    "Age": 81,
+    "Male Non-Smoker": 60.554,
+    "Male Smoker": 63.804,
+    "Female Non-Smoker": 44.727,
+    "Female Smoker": 57.428
+  },
+  {
+    "Age": 82,
+    "Male Non-Smoker": 65.943,
+    "Male Smoker": 69.48,
+    "Female Non-Smoker": 48.875,
+    "Female Smoker": 62.72
+  },
+  {
+    "Age": 83,
+    "Male Non-Smoker": 53.295,
+    "Male Smoker": 71.757,
+    "Female Non-Smoker": 75.588,
+    "Female Smoker": 68.418
+  },
+  {
+    "Age": 84,
+    "Male Non-Smoker": 58.089,
+    "Male Smoker": 77.979,
+    "Female Non-Smoker": 82.164,
+    "Female Smoker": 74.564
+  },
+  {
+    "Age": 85,
+    "Male Non-Smoker": 89.208,
+    "Male Smoker": 84.677,
+    "Female Non-Smoker": 63.24,
+    "Female Smoker": 81.2
+  },
+  {
+    "Age": 86,
+    "Male Non-Smoker": 96.792,
+    "Male Smoker": 68.799,
+    "Female Non-Smoker": 91.868,
+    "Female Smoker": 88.326
+  },
+  {
+    "Age": 87,
+    "Male Non-Smoker": 74.749,
+    "Male Smoker": 99.603,
+    "Female Non-Smoker": 104.904,
+    "Female Smoker": 95.984
+  },
+  {
+    "Age": 88,
+    "Male Non-Smoker": 113.604,
+    "Male Smoker": 81.158,
+    "Female Non-Smoker": 107.865,
+    "Female Smoker": 104.216
+  },
+  {
+    "Age": 89,
+    "Male Non-Smoker": 88.026,
+    "Male Smoker": 116.722,
+    "Female Non-Smoker": 122.928,
+    "Female Smoker": 113.05
+  },
+  {
+    "Age": 90,
+    "Male Non-Smoker": 126.191,
+    "Male Smoker": 95.404,
+    "Female Non-Smoker": 132.888,
+    "Female Smoker": 122.514
+  },
+  {
+    "Age": 91,
+    "Male Non-Smoker": 136.323,
+    "Male Smoker": 143.544,
+    "Female Non-Smoker": 103.309,
+    "Female Smoker": 132.678
+  },
+  {
+    "Age": 92,
+    "Male Non-Smoker": 147.169,
+    "Male Smoker": 154.956,
+    "Female Non-Smoker": 111.758,
+    "Female Smoker": 143.556
+  },
+  {
+    "Age": 93,
+    "Male Non-Smoker": 158.695,
+    "Male Smoker": 120.819,
+    "Female Non-Smoker": 167.112,
+    "Female Smoker": 155.176
+  },
+  {
+    "Age": 94,
+    "Male Non-Smoker": 171.054,
+    "Male Smoker": 180.096,
+    "Female Non-Smoker": 130.509,
+    "Female Smoker": 167.636
+  },
+  {
+    "Age": 95,
+    "Male Non-Smoker": 184.212,
+    "Male Smoker": 193.944,
+    "Female Non-Smoker": 140.862,
+    "Female Smoker": 180.95
+  },
+  {
+    "Age": 96,
+    "Male Non-Smoker": 198.254,
+    "Male Smoker": 208.704,
+    "Female Non-Smoker": 151.895,
+    "Female Smoker": 195.16
+  },
+  {
+    "Age": 97,
+    "Male Non-Smoker": 213.197,
+    "Male Smoker": 163.693,
+    "Female Non-Smoker": 224.424,
+    "Female Smoker": 210.322
+  },
+  {
+    "Age": 98,
+    "Male Non-Smoker": 229.126,
+    "Male Smoker": 176.273,
+    "Female Non-Smoker": 241.176,
+    "Female Smoker": 226.506
+  },
+  {
+    "Age": 99,
+    "Male Non-Smoker": 246.058,
+    "Male Smoker": 258.972,
+    "Female Non-Smoker": 189.703,
+    "Female Smoker": 243.768
+  }
+]
