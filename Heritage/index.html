@@ -12,6 +12,7 @@
             --card-bg: #ffffff;
             --text-color: #333333;
             --border-color: #e0e0e0;
+            --error-color: #d32f2f;
         }
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -100,7 +101,7 @@
             width: 100%;
             border-collapse: collapse;
             text-align: right;
-            font-variant-numeric: tabular-nums; /* Keeps numbers aligned */
+            font-variant-numeric: tabular-nums;
         }
         th {
             background-color: var(--primary-color);
@@ -132,6 +133,48 @@
             color: var(--primary-color);
             font-size: 1.1em;
         }
+
+        /* Modal Styles */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.2s ease;
+        }
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            animation: slideUp 0.3s ease;
+            border-top: 5px solid var(--error-color);
+        }
+        .modal-content h3 {
+            margin-top: 0;
+            color: var(--error-color);
+            font-size: 22px;
+        }
+        .modal-content p {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+        .modal-btn {
+            background-color: var(--primary-color);
+            width: 100%;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
     </style>
 </head>
 <body>
@@ -142,7 +185,6 @@
         <div class="input-grid">
             <div class="input-group">
                 <label>Entry Age</label>
-                <!-- Default changed to 30 -->
                 <input type="number" id="entryAge" value="30">
             </div>
             <div class="input-group">
@@ -173,7 +215,6 @@
             </div>
             <div class="input-group">
                 <label>Annual Premium</label>
-                <!-- Default changed to 12000 -->
                 <input type="number" id="premium" value="12000">
             </div>
             <div class="input-group">
@@ -206,6 +247,15 @@
                     <!-- Rows injected via JavaScript -->
                 </tbody>
             </table>
+        </div>
+    </div>
+
+    <!-- Custom Modal Popup -->
+    <div class="modal-overlay" id="validationModal">
+        <div class="modal-content">
+            <h3>Input Error</h3>
+            <p id="modalMessage">Validation message goes here.</p>
+            <button class="modal-btn" onclick="closeModal()">Review Inputs</button>
         </div>
     </div>
 
