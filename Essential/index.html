@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manulink Essential Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
+        <h1 class="text-2xl font-bold mb-6 text-blue-800">Manulink Essential Calculator</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div>
+                <label class="block text-sm font-medium">Entry Age</label>
+                <input type="number" id="entryAge" value="51" class="w-full border p-2 rounded">
+            </div>
+            <div>
+                <label class="block text-sm font-medium">Annual Premium ($)</label>
+                <input type="number" id="annualPremium" value="6000" class="w-full border p-2 rounded">
+            </div>
+            <div>
+                <label class="block text-sm font-medium">Gender</label>
+                <select id="gender" class="w-full border p-2 rounded">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium">Smoking Status</label>
+                <select id="smoking" class="w-full border p-2 rounded">
+                    <option value="Non-Smoker">Non-Smoker</option>
+                    <option value="Smoker">Smoker</option>
+                </select>
+            </div>
+        </div>
+
+        <button onclick="calculate()" class="w-full bg-blue-600 text-white font-bold py-2 rounded hover:bg-blue-700">Calculate Projection</button>
+
+        <div class="mt-8 overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-gray-200 text-sm">
+                        <th class="p-2 border">Age</th>
+                        <th class="p-2 border">Nett Prem</th>
+                        <th class="p-2 border">Basic COI</th>
+                        <th class="p-2 border">MHSE</th>
+                        <th class="p-2 border">Ending Balance</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsBody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
